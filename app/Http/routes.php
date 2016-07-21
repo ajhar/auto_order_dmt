@@ -22,3 +22,7 @@ Route::get('/conf', function () {
 Route::get('/configuration', [
     'as' => 'profile', 'uses' => 'ConfigurationController@update'
 ]);
+
+Route::get('/get_ebay_order', [
+    'as' => 'profile', 'uses' => 'OrderController@getEbayOrder'
+]);

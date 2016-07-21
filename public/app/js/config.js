@@ -9,7 +9,7 @@ $(document).ready(function () {
             dataType: 'json',
             data: formData,
             success: function (data) {
-
+                toastr[data.results](data.response);
             }
         });
 

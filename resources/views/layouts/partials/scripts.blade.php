@@ -7,9 +7,12 @@
 <!-- AdminLTE App -->
 <script src="{{ asset('/js/app.min.js') }}" type="text/javascript"></script>
 
-<script src="{{ asset('app/js/config.js') }}" type="text/javascript"></script>
-
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
       Both of these plugins are recommended to enhance the
       user experience. Slimscroll is required when using the
       fixed layout. -->
+
+<!-- plugins -->
+<script src="{{ asset('/plugins/toastr/toastr.min.js') }}" type="text/javascript"></script>
+<!-- custom scripts-->
+<script src="{{ asset('app/js/config.js') }}" type="text/javascript"></script>
